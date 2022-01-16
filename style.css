@@ -500,6 +500,8 @@ ul li{
     background-color: grey;
     
 }
+/* media query */
+
 /*---------------
      Mobile devices
   ---------------- */
@@ -567,5 +569,61 @@ ul li{
   /*---------------
     Tablet devices
   ---------------- */
+  @media only screen and (min-width: 688px) and (max-width:992px) {
+    main{
+        justify-content: center;
+        align-items: center;
+    }
+    .navigation{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .banner{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-image{
+        /* width: 100%; */
+        width: 357px;
+        height: 357px;
+
+    }
+    .camera-img{
+        /* width: 100%; */
+        width: 302px;
+        height: 302px;
+    }
+    .top-brands{
+        padding: 50px;
+        margin: 20px;
+    }
+    .brand-img{
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 20px;
+    }
+    
+    .text-info{
+        padding: 0;
+    }
+    article{
+        padding-left: 30px;
+        padding-top: 20px;
+        margin-bottom: 50px;
+    }
+    .see-more-products{
+        text-align: center;
+    }
+    .section-title{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .tools{
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+
+  }
         
   
