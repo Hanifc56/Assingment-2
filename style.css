@@ -29,15 +29,18 @@ body{
 ul{
     display: flex;
     list-style: none;
+    
 }
 ul li{
     list-style: none; 
     font-weight: 600;
+    
 }
 li a{
     text-decoration: none;
     color: #3A3A3A;
     padding: 10px;
+    cursor: pointer;
 }
 /* banner part styles */
 .banner{
